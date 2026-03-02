@@ -1,6 +1,6 @@
 # CSD Analytics Student Assistant — Learning Resources
 
-A curated set of learning resources for CSD Student Assistants.
+A curated set of learning resources for CSD Analytics Student Assistants.
 
 ---
 
