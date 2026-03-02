@@ -10,7 +10,6 @@ Start with GitHub Desktop and build the mental model of commits, branches, pushe
 
 - [GitHub Desktop Documentation](https://docs.github.com/en/desktop): Official docs. Start with the [Getting Started](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop) guide.
 - [Getting Started with Git and GitHub Desktop](https://www.codecademy.com/article/what-is-git-and-github-desktop): Codecademy. Quick conceptual overview of version control, repositories, commits, and cloning.
-- [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners): HubSpot. Walks through the core workflow step by step.
 
 **Key concepts to understand:** repository, commit, push, pull, branch, merge, pull request, `.gitignore`, and README files.
 
