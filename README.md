@@ -122,3 +122,5 @@ Alma Analytics is built on Oracle Business Intelligence (OBI). You don't need to
 - [Ex Libris: Presentations and Documents — Analytics](https://knowledge.exlibrisgroup.com/Alma/Training/Extended_Training/Presentations_and_Documents_-_Analytics): The most comprehensive single resource. Contains dozens of how-to guides for specific report types (expenditures, loans, users, etc.), filtering techniques, formulas, and data visualization.
 
 ---
+
+AI Disclosure: Large language models (LLMs) were used to assist in writing, and documenting the contents of this repository. All outputs were reviewed and validated by the developer.
