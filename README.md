@@ -112,7 +112,31 @@ Understanding the structure of library metadata is good context to have for the 
 
 Think of it as: the **title** is the book itself, the **holding** is "UCSB Library owns this," and the **item** is "this specific copy on the 3rd floor."
 
----
+------------------------------------------------------------------------
+
+## COUNTER Usage Reports & E-Resources Data
+
+CSD pulls COUNTER compliant usage reports from vendor platforms to track how electronic resources (databases, books, journals) are being used in the library. **This is NOT a priority learning area**.
+
+**COUNTER (Counting Online Usage of Networked Electronic Resources)**:
+
+This is the international standard defining how e-resource vendors must measure and report usage data to libraries. These reports follow a strict format so that usage across different platforms can be compared consistently.
+
+- [countermetrics.org](https://www.countermetrics.org/): This is the main website for COUNTER. Look over the Reports and Metrics under Education as they are helpful resources in preparation for pulling COUNTER usage reports.
+
+- [COUNTER Code of Practice Documentation](https://cop5.countermetrics.org/en/5.1.0.1/index.html): This is a reference for how COUNTER works.
+
+**Key Concepts**:
+
+- **Report types:** The main reports we will encounter are TR (Title Report), DR (Database Report), PR (Platform Report), and IR (Item Report). TR and DR are the most common in practice.
+
+- **Metrics:** Total_Item_Requests counts full-text retrievals. Unique_Item_Requests deduplicates by user session. Total_Item_Investigations includes abstract views and other interactions short of a full retrieval.
+
+- **Reporting Period**: Reports are always monthly. Each row in a COUNTER report represents usage of one title/database for one month
+
+- **SUSHI**: This is a machine-readable protocol that lets systems like Alma automatically harvest COUNTER reports from vendors via API, rather than downloading spreadsheets. If you see references to SUSHI endpoints or credentials, this is what they are for.
+
+------------------------------------------------------------------------
 
 ## 📊 Alma Analytics
 
