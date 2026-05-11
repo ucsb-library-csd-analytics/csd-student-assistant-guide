@@ -2,7 +2,7 @@
 
 A curated set of learning resources for CSD Analytics Student Assistants.
 
----
+------------------------------------------------------------------------
 
 ## 🐙 Git, GitHub & GitHub Desktop
 
@@ -22,7 +22,7 @@ When you submit a PR, you're asking someone to review your work. A good PR respe
 
 **In practice for our team:** Keep PRs focused on one thing. Write a short title that says what changed. If the change is visual, include a screenshot. In the description, add link to the relevant Jira ticket (if available) and explain the "how": why you made certain decisions and why you wrote the code the way you did. For your learning and development, it is crucial to write code while being cognizant of how it performs, when it will fail, what the likelihood of failure is, and how it will scale with more data. Your PR description is the place to show that thinking. After a pull request is approved and merged, please review the repository’s README and update or expand it as needed to reflect the changes.
 
----
+------------------------------------------------------------------------
 
 ## 📘 R Programming
 
@@ -38,7 +38,7 @@ Start with the foundational text and work through it sequentially. It covers dat
 - [Hands-On Programming with R](https://rstudio-education.github.io/hopr/): Garrett Grolemund. Free online. Beginner-friendly introduction to R through small projects. Good if R4DS feels too fast at the start.
 - [Advanced R, 2nd Edition](https://adv-r.hadley.nz/): Hadley Wickham. Free online. For when you're comfortable with R and want to understand how it actually works under the hood (environments, functional programming, metaprogramming). Not required reading immediately, but invaluable long-term.
 
----
+------------------------------------------------------------------------
 
 ## ✨ R Shiny
 
@@ -66,7 +66,7 @@ Our Shiny apps use custom CSS extensively, things like `tags$div(class = "viz-ca
 
 **What you'll encounter in our codebase:** `tags$div()`, `tags$p()`, `tags$h4()` are just R wrappers for HTML elements. The `class` argument maps to CSS classes. The `style` argument is inline CSS. `bs_add_rules()` injects custom CSS into the bslib theme. Once you understand these mappings, the Shiny UI code will make much more sense.
 
----
+------------------------------------------------------------------------
 
 ## 🎨 Tidyverse Style Guide
 
@@ -76,10 +76,9 @@ Consistent style makes code readable by others (and by future-you). Our team fol
 - [R4DS Chapter 4: Workflow — Code Style](https://r4ds.hadley.nz/workflow-style.html): A gentler introduction to the same style principles, with examples.
 - [styler R package](https://styler.r-lib.org/): Install this in your IDE. It auto-formats your code to tidyverse style. Run it before every commit.
 
----
+------------------------------------------------------------------------
 
 ## 🤖 Working with AI-Generated Code
-
 
 **How to learn effectively while using AI:**
 
@@ -91,13 +90,13 @@ Consistent style makes code readable by others (and by future-you). Our team fol
 
 **Our team's expectations:**
 
-1. **Read every line.** If an AI wrote the code, you are still responsible for understanding it. If you can't explain what a function does, don't commit it.
-2. **Test edge cases.** AI-generated code often handles the happy path but breaks on NAs, empty inputs, unexpected types, or large datasets. Think about what could go wrong.
-3. **Keep it clean.** AI tends to produce verbose, repetitive code. Refactor it to match our style guide before committing. Remove dead code, unnecessary comments, and redundant logic.
-4. **Never trust credentials handling.** AI will happily hardcode API keys, paste secrets into scripts, or skip `.gitignore` entries. Always check for this.
-5. **Ask if you're unsure.** It's always better to ask than to commit code you don't fully understand.
+1.  **Read every line.** If an AI wrote the code, you are still responsible for understanding it. If you can't explain what a function does, don't commit it.
+2.  **Test edge cases.** AI-generated code often handles the happy path but breaks on NAs, empty inputs, unexpected types, or large datasets. Think about what could go wrong.
+3.  **Keep it clean.** AI tends to produce verbose, repetitive code. Refactor it to match our style guide before committing. Remove dead code, unnecessary comments, and redundant logic.
+4.  **Never trust credentials handling.** AI will happily hardcode API keys, paste secrets into scripts, or skip `.gitignore` entries. Always check for this.
+5.  **Ask if you're unsure.** It's always better to ask than to commit code you don't fully understand.
 
----
+------------------------------------------------------------------------
 
 ## 📚 Library Data Basics
 
@@ -123,7 +122,7 @@ CSD pulls COUNTER compliant usage reports from vendor platforms to track how ele
 
 This is the international standard defining how e-resource vendors must measure and report usage data to libraries. These reports follow a strict format so that usage across different platforms can be compared consistently.
 
-- [countermetrics.org](https://www.countermetrics.org/): This is the main website for COUNTER. Look over the Reports and Metrics under Education as they are helpful resources in preparation for pulling COUNTER usage reports.
+- [countermetrics.org](https://www.countermetrics.org/): This is the main website for COUNTER. Look over the [Reports](https://www.countermetrics.org/education/reports/) and [Metrics ](https://www.countermetrics.org/education/metrics/)under Education as they are helpful resources in preparation for pulling COUNTER usage reports.
 
 - [COUNTER Code of Practice Documentation](https://cop5.countermetrics.org/en/5.1.0.1/index.html): This is a reference for how COUNTER works.
 
@@ -145,6 +144,6 @@ Alma Analytics is built on Oracle Business Intelligence (OBI). You don't need to
 
 - [Ex Libris: Presentations and Documents — Analytics](https://knowledge.exlibrisgroup.com/Alma/Training/Extended_Training/Presentations_and_Documents_-_Analytics): The most comprehensive single resource. Contains dozens of how-to guides for specific report types (expenditures, loans, users, etc.), filtering techniques, formulas, and data visualization.
 
----
+------------------------------------------------------------------------
 
 AI Disclosure: Large language models (LLMs) were used to assist in writing, and documenting the contents of this repository. All outputs were reviewed and validated by the developer.
