@@ -114,7 +114,7 @@ Think of it as: the **title** is the book itself, the **holding** is "UCSB Libra
 
 ------------------------------------------------------------------------
 
-## COUNTER Usage Reports & E-Resources Data
+## 📈 COUNTER Usage Reports & E-Resources Data
 
 CSD pulls COUNTER compliant usage reports from vendor platforms to track how electronic resources (databases, books, journals) are being used in the library. **This is NOT a priority learning area**.
 
